@@ -12,6 +12,32 @@ const Slider2 = () => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
   };
 
   const makesplit = (desc) => {
@@ -28,11 +54,11 @@ const Slider2 = () => {
   };
 
   return (
-    <div className=" mt-12 mb-12">
+    <div className="  h-[500px]  pt-12 mb-12 shadow-lg ">
       <div>
         {/* ---header-- */}
 
-        <div className=" text-center font-bold text-xl">
+        <div className=" text-center font-bold text-xl mb-6">
           <header className=" line1">
             Top Istanbul Attractions | Free entry with Istanbul E-pass | 2, 3, 5
             or 7 days

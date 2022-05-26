@@ -23,7 +23,7 @@ const images = ['https://istanbulepass.com/uploads/images/b_istanbul-old-city-vi
 
 
     return (
-        <div className=' relative'>
+        <div className=' relative  h-[300px] mb-24'>
         
 
 <div className=' w-full min-h-[400px]'>
