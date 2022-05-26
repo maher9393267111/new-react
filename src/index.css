@@ -66,9 +66,34 @@ margin-left: 12px;
 
 }
 
+.p{
+@apply pt-6 pb-6
+
+}
+
+.m{
+
+  @apply mt-6 mb-6
+}
+
+
+.ic{
+
+@apply text-[30px]   text-pink-600
+
+}
 
 
 }
 
 
 
+
+/* .icon-parent > h3:first-child  ::after{
+  
+
+
+display: none;
+
+
+} */

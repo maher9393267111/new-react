@@ -11,6 +11,7 @@ import Days from './Days';
 import Section3 from './section3';
 import Customersay from './customersay';
 import Mobileapp from './mobileapp';
+import Blogsection from './blogsection';
 
 
 const Home = () => {
@@ -126,6 +127,14 @@ const [name,setName] = useState("");
 </div>
 
 
+
+{/* -blogsection- */}
+
+
+<div>
+
+    <Blogsection/>
+</div>
 
 </div>
 

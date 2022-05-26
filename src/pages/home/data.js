@@ -1,5 +1,43 @@
 
 
+// android app
+import {AiOutlineShoppingCart} from 'react-icons/ai'
+import {MdSaveAlt} from 'react-icons/md'
+import {IoIosQrScanner} from 'react-icons/io'
+
+
+export const mob = [
+{
+icon : <AiOutlineShoppingCart className='text-white text-[57px]'/>,
+name:'Purchase your E-pass',
+title: 'Choose your 2,3,5 or 7 day E-pass and PurchaseOnline',
+
+},
+
+{
+    icon : <MdSaveAlt className='text-white  text-[57px]'/>,
+    name:'Download Istanbul E-pass App ',
+    title: 'Access E-pass customer panel and get the QR code and E-pass ID.',
+    
+    },
+
+    {
+        icon : <IoIosQrScanner className=' text-white text-[57px]'/>,
+        name:'Scan and Get in ',
+        title: 'Access E-pass customer panel and get the QR code and E-pass ID.',
+        
+        }
+
+
+
+]
+
+
+
+
+
+
+
 // custom say
 
 
