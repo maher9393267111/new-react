@@ -21,7 +21,7 @@ const Slider2= () => {
 
 const makesplit = () => {
 
-// make array of items  every item start from ,
+// make array of items  every item start from spliit to texttttt to array ,
 const splitme = 'hello maher,howareyoy,goo to home'
 const splitme2 = splitme.split(',')
 
