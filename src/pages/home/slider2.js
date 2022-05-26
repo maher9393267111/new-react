@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {slide2} from './data'
 
 const splitme = 'hello maher,howareyoy,goo to home'
 
@@ -19,14 +19,12 @@ const Slider2= () => {
  
  
 
-const makesplit = () => {
+const makesplit = (desc) => {
 
-// make array of items  every item start from spliit to texttttt to array ,
-const splitme = 'hello maher,howareyoy,goo to home'
-const splitme2 = splitme.split(',')
+ const splitdesc =  desc.split(',')
 
 
-return splitme2.map((item,index) => {
+return splitdesc.map((item,index) => {
 
     return (
         <div key={index}>
@@ -39,9 +37,7 @@ return splitme2.map((item,index) => {
    
 
   
-// var arr = splitme.split(',');
-// console.log(arr.length);
-// return arr;
+
 
 }
 
@@ -59,7 +55,25 @@ return splitme2.map((item,index) => {
     <header className=' line1'>Top Istanbul Attractions | Free entry with Istanbul E-pass | 2, 3, 5 or 7 days</header>
 </div>
 
-{makesplit()}
+
+
+{ slide2 && slide2.map((item,index) => {
+
+
+return (
+
+<div>
+
+    <h1>
+        { makesplit(item.sections[0].desc) }
+    </h1>
+
+</div>
+
+
+) } ) }
+
+
 
 
 </div>
