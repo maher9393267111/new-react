@@ -1,17 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-
+import {useState,UseEffect,useRef} from 'react';
+import Home from './pages/home';
 function App() {
+
+
+const [name,setName] = useState("");
   return (
     <div className="App">
     
 <div>
-<div>
-image is here
 
-<img src="https://maher2.s3.amazonaws.com/06d37e0831887f3acf9199a00073dc2b" alt="" />
+<Home/>
 
-</div>
+
+
+
+
+
+
 
 
 </div>
