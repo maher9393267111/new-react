@@ -59,6 +59,14 @@ margin-left: 12px;
 }
 
 
+.icon-style{
+
+ @apply  bg-red-400
+
+
+}
+
+
 
 }
 

@@ -2,11 +2,21 @@ import React from 'react';
 import {BiStar} from 'react-icons/bi';
 import { customersays as data } from './data';
 import Slider from "react-slick";
+import { IconContext } from 'react-icons';
+
+
+ const IconReturn = () => (
+    <IconContext.Provider value={{ size: '26px', color: 'pink',  className: "icon-style" }}>
+      <BiStar />
+    </IconContext.Provider>
+  );
+
+
 
 
 const Customersay = () => {
 
-    let arr = Array.apply(null, Array(10))
+    let arr = Array.apply(null, Array(5))
     //.map((val, idx) => idx);
 
 
@@ -92,17 +102,19 @@ const Customersay = () => {
 
 
 
-<div className=' container'>
+<div className=' container mt-6 ml-8'>
 
 
 {/* -stars */}
 
 
-<div>
+<div className=' flex gap-2 '>
 { arr.map((val,idx) => (
 
-<div className=' b'>
-ds
+<div className=' '>
+
+<span>< IconReturn className='text-2xl    font-bold  text-pink-600  ' /></span>
+
 
 </div>
 
