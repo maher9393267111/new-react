@@ -7,7 +7,7 @@ const Slider2 = () => {
   const settings = {
     // dots: true,
     infinite: true,
-    arrows: false,
+    arrows: true,
     //autoplay: true,
     speed: 500,
     slidesToShow: 3,
@@ -19,7 +19,7 @@ const Slider2 = () => {
             slidesToShow: 2,
             slidesToScroll: 2,
             infinite: true,
-            dots: true
+         //   dots: true
           }
         },
         {
@@ -94,6 +94,43 @@ const Slider2 = () => {
     <img className=" w-full h-full object-cover" src={item?.mainImage} alt="" />
 </div>
 
+
+
+<div className=" relative p-3  ">
+    <h1 className=" absolute
+    top-[-24px] z-10 w-[100px]  text-center font-bold  drop-shadow-md  text-yellow-50 rounded-2xl  bg-teal-300
+    
+    ">
+        {item?.tags}
+    </h1>
+</div>
+
+
+{/* -name- */}
+
+<div>
+
+<h1 className="  font-bold text-[#27326f] ml-4  ">
+    {item?.name.split(" ").slice(0,3).join(" ")} .......
+</h1>
+
+</div>
+
+{/* -price- */}
+
+
+
+<div className=" ml-4">
+
+    <h1 className="   text-gray-600 font-bold">
+
+        price without  pass {item.price}$
+
+
+    </h1>
+</div>
+
+
 </div>
 
             </div>
@@ -106,6 +143,15 @@ const Slider2 = () => {
 
       
       </div>
+
+
+{/* -----see All button---- */}
+
+
+
+
+
+
     </div>
   );
 };

@@ -6,6 +6,8 @@ import { useState, useEffect, useRef } from 'react';
 import Slider from "react-slick";
 import Layout from '../../components/layout';
   import { motion } from 'framer-motion';
+import Benefits from './Benefits';
+import Days from './Days';
 
 
 const Home = () => {
@@ -56,7 +58,42 @@ const [name,setName] = useState("");
 
 <Slider2/>
 
-    
+    <div>
+
+    <div>
+
+<div className='  text-center'>
+
+    <button className=' font-bold hover-btn '>
+        See All Attractions
+    </button>
+</div>
+
+
+</div>
+    </div>
+
+
+
+{/* ------------  Benefits component*/}
+
+<div>
+    <Benefits/>
+</div>
+
+
+{/* -----Days--- */}
+
+
+<div>
+
+
+<Days/>
+
+</div>
+
+
+
 </div>
 
 
