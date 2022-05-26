@@ -21,11 +21,15 @@ code {
 }
 
 
-/* .slick-arrow.slick-prev ,.slick-next{
+.slick-slide ,.slick-active ,.slick-current{
 
 
-  display: none;
-} */
+margin-left: 12px;
+
+
+}
+
+
 
 
 @layer components {
@@ -39,3 +43,6 @@ code {
       transition-all duration-700 ease-in-out sm:text-[14px] lg:text-2xl     ;
   }
 }
+
+
+

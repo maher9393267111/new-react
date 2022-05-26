@@ -31,46 +31,12 @@ const [name,setName] = useState("");
         <Layout>
         <div>
 
-<div className=' h-[20vh]'>
-    Home Page
-</div>
+
 
 <div>
 
 
-{/* ----slide1---- */}
 
-
-<div className=' text-center bg-[#d1276f] p-3 text-white font-bold text-xl'>
-
-<Slider {...settings}>
-
-{/* --1---- */}
-<div>
-    <h1>
- Valid for two years  from purchase  date
-    </h1>
-</div>
-
-
-{/* -2------ */}
-
-<div>
-
-    <h1>
-istanbul  entry to top istanbyl  attractions
-    </h1>
-</div>
-
-
-
-
-
-    </Slider>
-
-
-
-</div>
 
 
 {/* ------main slide-start- */}
