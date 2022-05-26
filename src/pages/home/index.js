@@ -8,6 +8,8 @@ import Layout from '../../components/layout';
   import { motion } from 'framer-motion';
 import Benefits from './Benefits';
 import Days from './Days';
+import Section3 from './section3';
+import Customersay from './customersay';
 
 
 const Home = () => {
@@ -92,6 +94,26 @@ const [name,setName] = useState("");
 
 </div>
 
+
+
+
+{/* ----section3-- */}
+
+<div>
+<Section3/>
+
+</div>
+
+
+{/* -----customer say- */}
+
+
+<div>
+
+<Customersay/>
+
+
+</div>
 
 
 </div>

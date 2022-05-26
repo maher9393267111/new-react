@@ -1,3 +1,80 @@
+
+
+// custom say
+
+
+export const customersays =[
+
+    {
+id:1,
+main:'Good work',
+title:'Best city pass ever , best support 24/24, support nicely, great work , best guide best attraction , is..'
+
+
+    },
+
+    {
+        id:2,
+        main : 'nic experience ',
+        title : 'Best city pass ever , best support 24/24, support nicely, great work , best guide best attraction , is.',
+        
+        },
+
+
+        {
+            id:3,
+            main : ' excellent service ',
+            title : 'Best city pass ever , best support 24/24, support nicely, great work , best guide best attraction , is.',
+            
+            },
+            {
+                id:4,
+                main : 'istanbull epass ',
+                title : 'Best city pass ever , best support 24/24, support nicely, great work , best guide best attraction , is.',
+                
+                },
+                {
+                    id:5,
+                    title : 'Best city pass ever , best support 24/24, support nicely, great work , best guide best attraction , is. ',
+                    main : 'best company for sightseeing',
+                    
+                    },
+                    {
+                        id:5,
+                        main : 'you are the best',
+                        title : 'Best city pass ever , best support 24/24, support nicely, great work , best guide best attraction , is.',
+                        
+                        },
+                        {
+                            id:6,
+                            main : ' best company ',
+                            title : 'Best city pass ever , best support 24/24, support nicely, great work , best guide best attraction , is.',
+                            
+                            },
+                            {
+                                id:7,
+                                main : ' great company ',
+                                title : 'Best city pass ever , best support 24/24, support nicely, great work , best guide best attraction , is.',
+                                
+                                },
+                                     
+                                
+                                {id:8,
+                                
+                                main : '  super company ',
+                                title : 'Best city pass ever , best support 24/24, support nicely, great work , best guide best attraction , is.',
+                                }
+
+
+
+
+
+]
+
+
+
+
+
 // benefits data
 
 export const benefitsdata = [
