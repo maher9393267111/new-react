@@ -6,7 +6,7 @@ import { IconContext } from 'react-icons';
 
 
  const IconReturn = () => (
-    <IconContext.Provider value={{ size: '26px', color: 'pink',  className: "icon-style" }}>
+    <IconContext.Provider value={{ size: '26px', color: 'pink',  className: "" }}>
       <BiStar />
     </IconContext.Provider>
   );
@@ -87,7 +87,7 @@ const Customersay = () => {
 
 
 
-<Slider {...settings}>
+<Slider {...settings} className='  h-[400px]'>
 
 
 { data.map((item, index) => (
@@ -123,6 +123,28 @@ const Customersay = () => {
 )}
 </div>
 
+
+
+
+{/* ----name-- */}
+
+
+<div className=' mt-6 font-bold text-xl '>
+    <h1>
+        {item.main}
+    </h1>
+</div>
+
+
+
+
+{/* --desc- */}
+
+<div className='  float  w-[80%] text-center mt-6 font-semibold'>
+    <h1>
+        {item.title}
+    </h1>
+</div>
 
 
 <div>

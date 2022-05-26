@@ -10,6 +10,7 @@ import Benefits from './Benefits';
 import Days from './Days';
 import Section3 from './section3';
 import Customersay from './customersay';
+import Mobileapp from './mobileapp';
 
 
 const Home = () => {
@@ -114,6 +115,16 @@ const [name,setName] = useState("");
 
 
 </div>
+
+
+{/* -app android - */}
+
+
+<div className=' mt-12 mb-12'>
+
+    <Mobileapp/>
+</div>
+
 
 
 </div>
