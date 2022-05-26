@@ -4,7 +4,7 @@ import Mainslide from './mainslide';
 import Slider2 from './slider2';
 import { useState, useEffect, useRef } from 'react';
 import Slider from "react-slick";
-
+import Layout from '../../components/layout';
   import { motion } from 'framer-motion';
 
 
@@ -28,6 +28,7 @@ const [name,setName] = useState("");
 
 
     return (
+        <Layout>
         <div>
 
 <div className=' h-[20vh]'>
@@ -110,6 +111,7 @@ istanbul  entry to top istanbyl  attractions
 
 
         </div>
+        </Layout>
     );
 }
 

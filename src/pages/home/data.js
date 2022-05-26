@@ -24,7 +24,7 @@ desc:'t is open every day except for Tuesdays. ,It is open 09:00-18:00 (The last
     {
 
 submain : 'Where is Topkapi Palace located?',
-desc:'The location of palace is in the Sultanahmet area. The historical city center of Istanbul is convenient to excess with public transportation.,https://istanbulepass.com/istanbul-attractions/topkapi-palace-museum-istanbul.html#:~:text=From%20Old%20City%20Area%3A%C2%A0Get%20the%20T1%20tram%20to%20Sultanahmet%20tram%20station.%20From%20the%20tram%20station%20to%20the%20palace%20is%20just%205%20minutes%20walk. , From Taksim Area: Get the funicular from the Taksim Square to Kabatas. From Kabatas take the T1 tram to Sultanahmet station. From the tram station to the palace is just 5 minutes walk. ,  From Sultanahmet Area: It is within walking distance of the majority of the hotels in the area.  ',
+desc:'The location of palace is in the Sultanahmet area. The historical city center of Istanbul is convenient to excess with public transportation., From Taksim Area: Get the funicular from the Taksim Square to Kabatas. From Kabatas take the T1 tram to Sultanahmet station. From the tram station to the palace is just 5 minutes walk. ,  From Sultanahmet Area: It is within walking distance of the majority of the hotels in the area.  ',
 
     } ,
 
